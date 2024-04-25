@@ -9,7 +9,7 @@ The connection string must be specified in MySqlConnect.ini in exactly the same 
 
 ### Dependencies:
 
-Unlike OpenSimulator, we use Nuget packages. The following packages must be installed using `dotnet add package`.
+Unlike OpenSimulator, we use Nuget packages. The following packages have been added using `dotnet add package`.
 
     dotnet add package MySql.Data --version 8.3.0
     dotnet add package nini-core --version 0.9.2.16
