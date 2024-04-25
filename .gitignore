@@ -1,0 +1,6 @@
+// ignore IDE configs
+.vscode
+
+// ignore binaries and objects
+bin
+objects
