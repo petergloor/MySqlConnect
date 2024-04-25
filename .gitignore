@@ -3,4 +3,4 @@
 
 // ignore binaries and objects
 bin
-objects
+obj
