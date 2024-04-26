@@ -7,7 +7,7 @@
 */
 
 using System;
-using MySql.Data.MySqlClient;
+using MySqlConnector;
 using Nini.Config;
 
 namespace MySqlConnect
@@ -50,7 +50,7 @@ namespace MySqlConnect
                 // Close the connection when we are done
                 conn.Close();
             }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
+            catch (MySqlException ex)
             {
                 // Oops... an error occured.
                 Console.WriteLine(ex.Message);
